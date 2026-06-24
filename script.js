@@ -5,7 +5,8 @@ let photos = ["https://preview.redd.it/if-the-show-is-successful-what-would-be-g
     "https://i1.wp.com/www.oxfordstudent.com/wp-content/uploads/2016/11/black-mirror-season-3-poster.png?fit=1080%2C1080&ssl=1",
     "https://upload.wikimedia.org/wikipedia/commons/3/38/Stranger_Things_logo.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Grey%27s_Anatomy_Logo.svg/480px-Grey%27s_Anatomy_Logo.svg.png",
-    "https://assets.fxnetworks.com/cms-next/production/67a0aace-e484-4032-885b-c6f6a405c7eb.jpg"
+    "https://assets.fxnetworks.com/cms-next/production/67a0aace-e484-4032-885b-c6f6a405c7eb.jpg",
+    "https://mattsviews.wordpress.com/wp-content/uploads/2020/07/82275d023aa187c05608c5709ec92898.jpg"
 ];
 
 
@@ -25,3 +26,8 @@ let show6 = document.querySelector(".show-6");
 
 show1.src = photos[0];
 // 2. Update the src for each show# variable - use the line above as a reference.
+show2.src = photos[1]
+show3.src = photos[2]
+show4.src = photos[3]
+show5.src = photos[4]
+show6.src = photos[5]
